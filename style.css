@@ -1,6 +1,6 @@
 div{
     width: 50%;
-    margin: 70px auto;
+    margin: 30px auto;
     text-decoration: underline lightsalmon;
     color: blue;
     font-weight: bold;
@@ -9,7 +9,7 @@ div{
 table{
     border-collapse:collapse ;
     width: 50%;
-    margin: 80px auto;
+    margin: 50px auto;
    font-weight: bold;
 
 }
