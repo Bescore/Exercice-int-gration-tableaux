@@ -1,22 +1,56 @@
-table{
-    border-collapse:collapse ;
-    border: double grey 2px;
+div{
     width: 50%;
-    margin: 50px auto;
+    margin: 70px auto;
+    text-decoration: underline lightsalmon;
+    color: blue;
+    font-weight: bold;
     text-align: center;
 }
+table{
+    border-collapse:collapse ;
+    width: 50%;
+    margin: 80px auto;
+   font-weight: bold;
+}
 
-tr,td,th{
-    border: double grey 2px;
+td,th{
+    border: double black 2px;
     padding: 10px;
-    width: 90px;
+    height: 50px;
+    text-align: center;
 }
 /*titre 1.5em/ cibler la cellule titre afpa*/
 table tr:first-child th:nth-child(2){
-    background-color: aqua;
+    color:blue;
     font-size:1.5em ;
 }
 /*lettre en capitales*/
 td::first-letter, th::first-letter{
     text-transform: uppercase;
+}
+tbody tr:nth-child(2n){
+background-color: #FCB941;
+}
+tbody tr:nth-child(2n+1) {
+    background-color: #F1654C;
+}
+/*5*/
+tbody   tr:nth-child(2n+1) td:first-child{
+    background-color: #7E3661;
+    color: #fff;
+}
+/*6*/
+tbody tr:nth-child(2n) td:first-child {
+    background-color: #888888;
+    color: #fff;
+}
+/*7*/
+tr:nth-child(2n+1) td:last-child {
+    background-color: #8870FF;
+    color: #fff;
+}
+/*8*/
+thead tr  th:last-child{
+    border-right: none;
+    border-top: none;
 }
