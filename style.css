@@ -11,12 +11,12 @@ tr,td,th{
     padding: 10px;
     width: 90px;
 }
-/*titre 1.5em*/
+/*titre 1.5em/ cibler la cellule titre afpa*/
 table tr:first-child th:nth-child(2){
     background-color: aqua;
     font-size:1.5em ;
 }
 /*lettre en capitales*/
-td::first-letter,thead th::first-letter{
+td::first-letter, th::first-letter{
     text-transform: uppercase;
 }
