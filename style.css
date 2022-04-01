@@ -5,17 +5,18 @@ table{
     margin: 50px auto;
     text-align: center;
 }
+
 tr,td,th{
     border: double grey 2px;
     padding: 10px;
     width: 90px;
 }
 /*titre 1.5em*/
-thead th:last-of-type{
+table tr:first-child th:nth-child(2){
     background-color: aqua;
     font-size:1.5em ;
 }
 /*lettre en capitales*/
-thead th::first-letter{
+td::first-letter,thead th::first-letter{
     text-transform: uppercase;
 }
