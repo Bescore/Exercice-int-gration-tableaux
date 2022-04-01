@@ -1,0 +1,20 @@
+table{
+    border-collapse:collapse ;
+    border: double grey 2px;
+    width: 50%;
+    margin: 50px auto;
+}
+tr,td,th{
+    border: double grey 2px;
+    padding: 10px;
+    width: 90px;
+}
+/*titre 1.5em*/
+thead th:last-of-type{
+    background-color: aqua;
+    font-size:1.5em ;
+}
+/*lettre en capitales*/
+thead th::first-letter{
+    text-transform: uppercase;
+}
