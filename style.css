@@ -54,7 +54,7 @@ tr:nth-child(2n+1) td:last-child {
     color: #fff;
 }
 /*8*/
-thead tr  th:last-child{
+thead tr th:last-child{
     border-right: none;
     border-top: none;
 }
