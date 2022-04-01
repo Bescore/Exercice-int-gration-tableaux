@@ -14,7 +14,7 @@ table{
 }
 
 td,th{
-    border: double black 2px;
+    border: ridge #a1a1a1 3px;
     padding: 10px;
     height: 50px;
     text-align: center;
