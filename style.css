@@ -3,6 +3,7 @@ table{
     border: double grey 2px;
     width: 50%;
     margin: 50px auto;
+    text-align: center;
 }
 tr,td,th{
     border: double grey 2px;
